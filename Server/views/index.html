@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harmony API</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        color: rgb(68, 68, 68);
+        text-align: center;
+      }
+      html::selection {
+        color: red;
+      }
+      .container {
+        background-image: url(https://static.vecteezy.com/system/resources/previews/008/171/873/original/abstract-boxes-background-modern-technology-with-square-mesh-geometric-on-white-background-with-lines-cube-cell-illustration-free-vector.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        align-items: center;
+      }
+      .title {
+        font-size: 4rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+      }
+      .slogan {
+        font-size: 2rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+      }
+      .detail {
+        margin-top: 30px;
+        font-size: 1.5rem;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      }
+      footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(211, 211, 211, 0.5);
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      }
+      a {
+        text-decoration: none;
+        transition: all 0.3s ease;
+      }
+      a:hover {
+        color: dodgerblue;
+      }
+      @media screen and (max-width: 768px) {
+        /* Adjustments for smaller screens */
+        .title {
+          font-size: 2.5rem;
+        }
+        .slogan {
+          font-size: 1.5rem;
+        }
+        .detail {
+          font-size: 1.2rem;
+        }
+      }
+      p::selection {
+        color: rgb(255, 255, 255);
+        background-color: rgb(68, 68, 68);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <p>Harmony API</p>
+      </div>
+      <div class="slogan">
+        <p>Feel Every Beat</p>
+      </div>
+      <main>
+        <p class="detail">
+          Harmony is a free CRUD music API that allows you to manage your music
+          collection. Discover, and organize your favorite songs with ease.
+        </p>
+      </main>
+      <footer>
+        <p>
+          Copyright © 2023
+          <a
+            href="https://ayubali125212.github.io/CV/"
+            title="Ayub's portifolio website"
+            target="_blank"
+            >Ayub Ali</a
+          >. All Rights Reserved.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
