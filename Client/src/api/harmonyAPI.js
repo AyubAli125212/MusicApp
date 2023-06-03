@@ -36,8 +36,6 @@ export const updateSong = async (songData) => {
         return response;
     } catch (error) {
         console.error('Error updating song:', error);
-        console.log("error.response.status");
-        console.log(error.response.status);
         return error.response.status;
     }
 };

@@ -54,8 +54,6 @@ const songReducer = createReducer(initialState, (builder) => {
             }
 
             state.isLoading = false;
-            console.log("state.status");
-            console.log(state.status);
         })
         .addCase(updateSongAsync.rejected, (state, action) => {
             state.status = action.payload;

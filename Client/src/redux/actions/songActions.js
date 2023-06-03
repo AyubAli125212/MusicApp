@@ -15,7 +15,6 @@ export const createSongAsync = createAsyncThunk('songs/createSong', async (songD
 
 // Update an existing song
 export const updateSongAsync = createAsyncThunk('songs/updateSong', async (songData) => {
-    console.log("no no")
     const updatedSong = await updateSong(songData);
     return updatedSong;
 });
