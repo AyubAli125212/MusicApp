@@ -1,4 +1,8 @@
+<div align="center">
+
 # 🎵 HarmonyPlay Music App | MERN Stack
+
+</div>
 
 ![HarmonyPlay Music App](https://res.cloudinary.com/dlkmarlgw/image/upload/v1685821485/YtdaokLluZf_eemi6r.png)
 
