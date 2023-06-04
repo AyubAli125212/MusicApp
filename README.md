@@ -56,11 +56,11 @@ Create your **.env** file inside the server folder and include this variables.
 DATABASE_URI=mongodb+srv://yourname:<password>@musiccollection.pydni2z.mongodb.net/?retryWrites=true&w=majority&connectTimeoutMS=60000
 PORT=5050
 CLOUDINARY_CLOUD_NAME=your cloudinary api name
-CLOUDINARY_API_KEY=your cloudinary api nakeyme
+CLOUDINARY_API_KEY=your cloudinary api key
 CLOUDINARY_API_SECRET=your cloudinary api secret
 ```
 
-📌Run the project from the client folder and server folder
+📌Run the project from both the client folder and server folder
 
 ```
 npm start
